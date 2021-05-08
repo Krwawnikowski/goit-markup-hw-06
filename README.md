@@ -1,3 +1,3 @@
-# goit-markup-hw-04
+# goit-markup-hw-06
 
-https://krwawnikowski.github.io/goit-markup-hw-04/
+https://krwawnikowski.github.io/goit-markup-hw-06/
