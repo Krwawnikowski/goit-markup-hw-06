@@ -360,8 +360,42 @@
                 <svg class="modal-close-btn">
                     <use href="images/icons.svg#icon-Vector" heigt="11px" width="11px"></use>
                 </svg>
-                <form action="" method="post" class="modal-form"></form>
             </button>
+            <form action="#" method="post" class="modal-form">
+                <h2 class="modal-form-title">Zostaw swoje dane w formularzu poniżej</h2>
+                <label for="name" class="modal-label">Imie</label>
+                    <div class="modal-input-wrapper">
+                        <input type="text" name="name" class="modal-input" required>
+                        <svg class="modal-form-icon">
+                            <use href="images/icons.svg#icon-name" height="18px" width="18px"></use>
+                        </svg>
+
+                    </div>
+                <label for="telefon" class="modal-label">Telefon</label>
+                    <div class="modal-input-wrapper">
+                        <input type="tel " name="telefon" class="modal-input" required>
+                        <svg class="modal-form-icon">
+                            <use href="images/icons.svg#icon-phone" height="18px" width="18px"></use>
+                        </svg>
+                    </div>
+                
+                <label for="mail" class="modal-label">Email</label>
+                    <div class="modal-input-wrapper">
+                        <input type="mail" name="mail" class="modal-input" required>
+                        <svg class="modal-form-icon">
+                            <use href="images/icons.svg#icon-mail" height="18px" width="18px"></use>
+                        </svg>
+                    </div>  
+                <label for="komentarz" class="modal-label">Komentarz</label>
+                <textarea name="komentarz" class="modal-textarea" placeholder="Wprowadź tekst" id="text" cols="30" rows="10"></textarea>
+                    <div class="modal-checkbox-wrapper">
+                        <div class="modal-disclaimer-wrapper">
+                            <input type="checkbox" class="modal-checkbox" required>
+                            <label for="checkbox" class="policy-label">Oświadczam iż akceptuję <a href="#" class="modal-policy-link">Regulamin</a>  i <a href="#" class="modal-policy-link">Politykę Prywatności.</a></label>
+                        </div>
+                        <button class="modal-button" type="submit">Wyślij</button>
+                    </div>                
+            </form>
         </div>
 
     </div>
