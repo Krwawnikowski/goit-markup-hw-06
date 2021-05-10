@@ -351,6 +351,22 @@
                 </li>
             </ul>
         </div>
+        <div class="footer_newsletter">
+                <form class="footer_newsletter-form">
+                    <p class="footer_newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</p>
+                    <div class="footer_newsletter-input">
+                        <input type="email" name="email-newsletter" class="footer_newsletter-email"
+                            placeholder="E-mail">
+                        <button type="submit" class="hero-btn footer_newsletter-btn">
+                            Zapisz się
+                            <svg class="footer_newsletter-icon">
+                                <use xlink:href="./images/icons.svg#icon-icon-send" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     </footer>
 
@@ -381,7 +397,7 @@
                 
                 <label for="mail" class="modal-label">Email</label>
                     <div class="modal-input-wrapper">
-                        <input type="mail" name="mail" class="modal-input" required>
+                        <input type="email" name="mail" class="modal-input" required>
                         <svg class="modal-form-icon">
                             <use href="images/icons.svg#icon-mail" height="18px" width="18px"></use>
                         </svg>
@@ -390,14 +406,13 @@
                 <textarea name="komentarz" class="modal-textarea" placeholder="Wprowadź tekst" id="text" cols="30" rows="10"></textarea>
                     <div class="modal-checkbox-wrapper">
                         <div class="modal-disclaimer-wrapper">
-                            <input type="checkbox" class="modal-form-policy" id="user-policy" name="policy" required>
+                            <input type="checkbox" class="modal-form-policy visually-hidden " id="user-policy" name="policy" required>
                             <label for="user-policy" class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#" class="modal-policy-link">Regulamin</a>  i <a href="#" class="modal-policy-link">Politykę Prywatności.</a></label>
                         </div>
                         <button class="modal-button" type="submit">Wyślij</button>
                     </div>                
             </form>
         </div>
-       
     </div>
 
     <script src="modal.js"></script> 
