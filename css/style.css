@@ -451,16 +451,16 @@ img {
     padding-bottom: 20px;
 }
 .join-us-portfolio {
-    width: 200px;
-    height: 80px;
+    /* width: 200px;
+    height: 80px; */
     justify-content: center;
     align-items: center;
-    padding-left: 70px;
+    margin-left: 70px;
     padding-bottom: 100px;
     padding-top: 72px;
 }
 .footer_newsletter {
-    margin-left: 98px;
+    margin-left: 77px;
     margin-bottom: 15px;
 }
 
